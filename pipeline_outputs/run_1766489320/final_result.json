@@ -1,0 +1,163 @@
+{
+  "image": "image\\382314b2-f5d7-4158-9b37-f8830d7dc0f4_detected.png",
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "pipeline_timing": {
+    "step_1_craft_detection": 3.9388,
+    "step_2_gemini_analysis": 22.9644,
+    "step_3_font_normalization": 0.0001,
+    "total_pipeline_time": 26.9043
+  },
+  "regions": [
+    {
+      "id": 1,
+      "bbox": {
+        "x": 78,
+        "y": 43,
+        "width": 257,
+        "height": 127
+      },
+      "polygon": [
+        [
+          86,
+          53
+        ],
+        [
+          323,
+          47
+        ],
+        [
+          326,
+          158
+        ],
+        [
+          89,
+          164
+        ]
+      ],
+      "text_content": {
+        "text": "RUN",
+        "role": "heading",
+        "raw_font": "Anton",
+        "raw_weight": "extrabold",
+        "normalized_font": "Anton",
+        "normalized_weight": 400,
+        "text_case": "uppercase",
+        "color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 2,
+      "bbox": {
+        "x": 22,
+        "y": 166,
+        "width": 643,
+        "height": 122
+      },
+      "polygon": [
+        [
+          43,
+          170
+        ],
+        [
+          643,
+          170
+        ],
+        [
+          643,
+          283
+        ],
+        [
+          43,
+          283
+        ]
+      ],
+      "text_content": {
+        "text": "UNLIMITED",
+        "role": "heading",
+        "raw_font": "Anton",
+        "raw_weight": "extrabold",
+        "normalized_font": "Anton",
+        "normalized_weight": 400,
+        "text_case": "uppercase",
+        "color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 3,
+      "bbox": {
+        "x": 616,
+        "y": 1303,
+        "width": 373,
+        "height": 65
+      },
+      "polygon": [
+        [
+          628,
+          1305
+        ],
+        [
+          976,
+          1305
+        ],
+        [
+          976,
+          1365
+        ],
+        [
+          628,
+          1365
+        ]
+      ],
+      "text_content": {
+        "text": "DON'T STOP.",
+        "role": "heading",
+        "raw_font": "Anton",
+        "raw_weight": "extrabold",
+        "normalized_font": "Anton",
+        "normalized_weight": 400,
+        "text_case": "uppercase",
+        "color": "#FFFFFF"
+      }
+    },
+    {
+      "id": 4,
+      "bbox": {
+        "x": 576,
+        "y": 1368,
+        "width": 430,
+        "height": 65
+      },
+      "polygon": [
+        [
+          590,
+          1370
+        ],
+        [
+          991,
+          1370
+        ],
+        [
+          991,
+          1430
+        ],
+        [
+          590,
+          1430
+        ]
+      ],
+      "text_content": {
+        "text": "NEVER SETTLE.",
+        "role": "heading",
+        "raw_font": "Anton",
+        "raw_weight": "extrabold",
+        "normalized_font": "Anton",
+        "normalized_weight": 400,
+        "text_case": "uppercase",
+        "color": "#FFFFFF"
+      }
+    }
+  ]
+}

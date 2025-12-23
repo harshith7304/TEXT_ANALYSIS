@@ -1,13 +1,16 @@
 import os
 import json
 from PIL import Image
-import google.generativeai as genai
+from google import genai
+from google.genai import types
+from dotenv import load_dotenv
 
 # --------------------------------------------------
 # CONFIGURATION
 # --------------------------------------------------
 
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+load_dotenv()
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 MODEL_NAME = "gemini-2.5-flash"
 
@@ -85,18 +88,17 @@ Rules:
 # --------------------------------------------------
 
 def analyze_text_crop(image_path: str) -> dict:
-    model = genai.GenerativeModel(
-        model_name=MODEL_NAME,
-        generation_config={
-            "response_mime_type": "application/json",
-            "response_schema": TEXT_ANALYSIS_SCHEMA,
-            "temperature": 0
-        }
-    )
-
     image = Image.open(image_path)
-
-    response = model.generate_content([PROMPT, image])
+    
+    response = client.models.generate_content(
+        model=MODEL_NAME,
+        contents=[PROMPT, image],
+        config=types.GenerateContentConfig(
+            response_mime_type="application/json",
+            response_schema=TEXT_ANALYSIS_SCHEMA,
+            temperature=0
+        )
+    )
 
     return json.loads(response.text)
 
@@ -131,7 +133,7 @@ def analyze_all_crops(crops_dir: str):
 
 if __name__ == "__main__":
     # CRAFT_CROPS_DIR = "outputs_all_line/run_1/7a28326f-bf66-4008-97b4-abba4dfedd3a/crops"
-    CRAFT_CROPS_DIR = "outputs_all_line/run_1/67bb41a3-98c4-4d7e-98f3-d59a0a202268/crops"
+    CRAFT_CROPS_DIR = "outputs_all_line/run_1/9aa8f004-7003-412e-a4b0-c17b42319229/crops"
     output = analyze_all_crops(CRAFT_CROPS_DIR)
 
     with open("gemini_text_analysis5.json", "w") as f:
