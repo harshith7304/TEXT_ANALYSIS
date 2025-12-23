@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Models
+*.pth
+
+# Outputs
+outputs/
+outputs_all_line/
+
+# Editor
+.vscode/
+.idea/
+
+# Local data
+google_fonts_cache.json
+gemini_text_analysis*.json
+text_analysis_normalized.json

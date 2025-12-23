@@ -1,0 +1,50 @@
+[
+  {
+    "crop": "region_1.png",
+    "analysis": {
+      "text": "MORE ROOM.",
+      "role": "heading",
+      "primary_font": "Anton",
+      "fallback_font": "Oswald",
+      "font_weight": "extrabold",
+      "text_case": "uppercase",
+      "text_color": "#E8E4D9",
+      "cta_intent": "none",
+      "validated_font_family": "Anton",
+      "validated_font_weight": 400,
+      "font_source": "primary"
+    }
+  },
+  {
+    "crop": "region_2.png",
+    "analysis": {
+      "text": "MORE POWER",
+      "role": "heading",
+      "primary_font": "Anton",
+      "fallback_font": "Oswald",
+      "font_weight": "extrabold",
+      "text_case": "uppercase",
+      "text_color": "#E8E4D7",
+      "cta_intent": "none",
+      "validated_font_family": "Anton",
+      "validated_font_weight": 400,
+      "font_source": "primary"
+    }
+  },
+  {
+    "crop": "region_3.png",
+    "analysis": {
+      "text": "The Jordan Brooklyn Fleece Hoodie",
+      "role": "heading",
+      "primary_font": "Roboto",
+      "fallback_font": "Open Sans",
+      "font_weight": "bold",
+      "text_case": "titlecase",
+      "text_color": "#F5F5DC",
+      "cta_intent": "none",
+      "validated_font_family": "Roboto",
+      "validated_font_weight": 700,
+      "font_source": "primary"
+    }
+  }
+]
