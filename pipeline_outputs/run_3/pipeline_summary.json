@@ -1,0 +1,18 @@
+{
+  "total_images": 1,
+  "global_timings": {
+    "Pipeline Initialization": 0.001257181167602539,
+    "Total Processing (1 images)": 7.627399206161499
+  },
+  "details": [
+    {
+      "image": "image\\18f5c3c6-e7cf-4ea1-b674-35467e779422.png",
+      "result_file": "pipeline_outputs\\run_3\\18f5c3c6-e7cf-4ea1-b674-35467e779422\\18f5c3c6-e7cf-4ea1-b674-35467e779422_full_analysis.json",
+      "timings": {
+        "Stage 1: Segmentation (CRAFT)": 6.0305259227752686,
+        "Stage 2: Analysis (Gemini)": 1.5897905826568604,
+        "Stage 3: Normalization": 5.793571472167969e-05
+      }
+    }
+  ]
+}
