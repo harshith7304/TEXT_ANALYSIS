@@ -1,0 +1,252 @@
+[
+  {
+    "text": "ZERO GREASE.",
+    "role": "heading",
+    "primary_font": "Anton",
+    "fallback_font": "Bebas Neue",
+    "font_weight": "extrabold",
+    "text_case": "uppercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "GEL",
+    "role": "label",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "bold",
+    "text_case": "uppercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "Lightweight",
+    "role": "usp",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "sentencecase",
+    "text_color": "#000000",
+    "cta_intent": "none"
+  },
+  {
+    "text": "GEL",
+    "role": "label",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "bold",
+    "text_case": "uppercase",
+    "text_color": "#000000",
+    "cta_intent": "none"
+  },
+  {
+    "text": "SUNSCREEN",
+    "role": "label",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "uppercase",
+    "text_color": "#000000",
+    "cta_intent": "none"
+  },
+  {
+    "text": "VEGAN &",
+    "role": "usp",
+    "primary_font": "Anton",
+    "fallback_font": "Bebas Neue",
+    "font_weight": "extrabold",
+    "text_case": "uppercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "Broad Spectrum Protection",
+    "role": "usp",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "titlecase",
+    "text_color": "#000000",
+    "cta_intent": "none"
+  },
+  {
+    "text": "CRUELTY-FREE",
+    "role": "usp",
+    "primary_font": "Anton",
+    "fallback_font": "Bebas Neue",
+    "font_weight": "extrabold",
+    "text_case": "uppercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "SPF",
+    "role": "label",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "bold",
+    "text_case": "uppercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "PA",
+    "role": "label",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "bold",
+    "text_case": "uppercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "55+ | +++",
+    "role": "label",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "bold",
+    "text_case": "uppercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "FULL PROTECTION.",
+    "role": "heading",
+    "primary_font": "Anton",
+    "fallback_font": "Bebas Neue",
+    "font_weight": "extrabold",
+    "text_case": "uppercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "For all skin types",
+    "role": "usp",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "sentencecase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "Prevents tanning",
+    "role": "usp",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "sentencecase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "Non-oN, ron-sinaty",
+    "role": "usp",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "sentencecase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "Provides hydration",
+    "role": "usp",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "sentencecase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "50 gm",
+    "role": "label",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "lowercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "GET YOURS",
+    "role": "cta",
+    "primary_font": "Anton",
+    "fallback_font": "Bebas Neue",
+    "font_weight": "extrabold",
+    "text_case": "uppercase",
+    "text_color": "#000000",
+    "cta_intent": "shop_now"
+  },
+  {
+    "text": "SPF 55+",
+    "role": "label",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "bold",
+    "text_case": "uppercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "de",
+    "role": "body",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "lowercase",
+    "text_color": "#000000",
+    "cta_intent": "none"
+  },
+  {
+    "text": "BROAD SPECTRUM",
+    "role": "usp",
+    "primary_font": "Anton",
+    "fallback_font": "Bebas Neue",
+    "font_weight": "extrabold",
+    "text_case": "uppercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "cons",
+    "role": "body",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "lowercase",
+    "text_color": "#000000",
+    "cta_intent": "none"
+  },
+  {
+    "text": "truct\u00ae",
+    "role": "body",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "lowercase",
+    "text_color": "#000000",
+    "cta_intent": "none"
+  },
+  {
+    "text": "LIGHTWEIGHT",
+    "role": "usp",
+    "primary_font": "Anton",
+    "fallback_font": "Bebas Neue",
+    "font_weight": "extrabold",
+    "text_case": "uppercase",
+    "text_color": "#FFFFFF",
+    "cta_intent": "none"
+  },
+  {
+    "text": "Highly, Effective, Yet Gentle.",
+    "role": "usp",
+    "primary_font": "Roboto",
+    "fallback_font": "Open Sans",
+    "font_weight": "regular",
+    "text_case": "titlecase",
+    "text_color": "#000000",
+    "cta_intent": "none"
+  }
+]
